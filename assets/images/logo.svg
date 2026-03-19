@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 44" fill="none">
+  <path d="M8 8 L2 8 L2 36 L8 36" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="16" y="32" font-family="Georgia, serif" font-size="24" font-weight="700" fill="#1A1A2E">Prince</text>
+  <circle cx="8" cy="40" r="2.5" fill="#F472B6"/>
+  <path d="M166 8 L172 8 L172 36 L166 36" stroke="#F472B6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

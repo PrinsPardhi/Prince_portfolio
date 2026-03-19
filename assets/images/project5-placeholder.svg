@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080e1a"/>
+      <stop offset="100%" style="stop-color:#0d1525"/>
+    </linearGradient>
+    <linearGradient id="bluegold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1D4ED8"/>
+      <stop offset="100%" style="stop-color:#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="ailine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="50%" style="stop-color:#8B5CF6"/>
+      <stop offset="100%" style="stop-color:#F472B6"/>
+    </linearGradient>
+    <linearGradient id="card5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f1d36"/>
+      <stop offset="100%" style="stop-color:#080e1a"/>
+    </linearGradient>
+    <linearGradient id="docgrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1D4ED8" stop-opacity="0.15"/>
+      <stop offset="100%" style="stop-color:#1D4ED8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#bg5)"/>
+
+  <!-- Subtle dot grid -->
+  <g opacity="0.08">
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#3B82F6"/>
+    </pattern>
+    <rect width="800" height="420" fill="url(#dots)"/>
+  </g>
+
+  <!-- Top nav bar -->
+  <rect x="0" y="0" width="800" height="46" fill="#050b18"/>
+  <rect x="0" y="44" width="800" height="2" fill="url(#bluegold)" opacity="0.7"/>
+  <!-- Bank logo area -->
+  <rect x="18" y="12" width="22" height="22" rx="6" fill="#1D4ED8" opacity="0.3"/>
+  <text x="24" y="27" font-family="Arial,sans-serif" font-size="13" fill="#3B82F6">🏦</text>
+  <text x="48" y="28" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#F1F5F9">SecureBank <tspan fill="#F59E0B">AI</tspan></text>
+  <!-- Nav items -->
+  <text x="220" y="28" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6">Chat Assistant</text>
+  <rect x="216" y="43" width="80" height="2" fill="#3B82F6" rx="1"/>
+  <text x="314" y="28" font-family="Arial,sans-serif" font-size="10" fill="#475569">Documents</text>
+  <text x="392" y="28" font-family="Arial,sans-serif" font-size="10" fill="#475569">Reports</text>
+  <text x="460" y="28" font-family="Arial,sans-serif" font-size="10" fill="#475569">Audit Log</text>
+  <!-- Secure badge -->
+  <rect x="620" y="10" width="68" height="24" rx="12" fill="#064E3B" opacity="0.8"/>
+  <text x="636" y="26" font-family="Arial,sans-serif" font-size="9" fill="#10B981">🔒 Secure</text>
+  <!-- Avatar -->
+  <circle cx="756" cy="23" r="13" fill="#1D4ED8" opacity="0.25"/>
+  <text x="750" y="27" font-family="Arial,sans-serif" font-size="10" fill="#3B82F6" font-weight="bold">PP</text>
+
+  <!-- LEFT: Document upload panel -->
+  <rect x="16" y="58" width="220" height="346" rx="10" fill="url(#card5)" stroke="#122040" stroke-width="1"/>
+  <rect x="16" y="58" width="220" height="3" rx="2" fill="#1D4ED8"/>
+
+  <text x="32" y="82" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Uploaded Documents</text>
+  <text x="32" y="96" font-family="Arial,sans-serif" font-size="9" fill="#475569">3 files · Processed ✓</text>
+
+  <!-- Doc 1 -->
+  <rect x="28" y="106" width="196" height="50" rx="7" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="28" y="106" width="4" height="50" rx="2" fill="#3B82F6"/>
+  <text x="42" y="123" font-family="Arial,sans-serif" font-size="10" fill="#F1F5F9">Q4_Financial_Report.pdf</text>
+  <text x="42" y="137" font-family="Arial,sans-serif" font-size="8" fill="#64748B">2.4 MB · PDF · Indexed</text>
+  <rect x="174" y="115" width="40" height="14" rx="7" fill="#10B981" opacity="0.15"/>
+  <text x="180" y="125" font-family="Arial,sans-serif" font-size="7" fill="#10B981">Ready</text>
+  <text x="42" y="150" font-family="Arial,sans-serif" font-size="8" fill="#64748B">48 pages · 12,430 tokens</text>
+
+  <!-- Doc 2 -->
+  <rect x="28" y="164" width="196" height="50" rx="7" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="28" y="164" width="4" height="50" rx="2" fill="#F59E0B"/>
+  <text x="42" y="181" font-family="Arial,sans-serif" font-size="10" fill="#F1F5F9">Loan_Policy_2024.docx</text>
+  <text x="42" y="195" font-family="Arial,sans-serif" font-size="8" fill="#64748B">890 KB · DOCX · Indexed</text>
+  <rect x="174" y="173" width="40" height="14" rx="7" fill="#10B981" opacity="0.15"/>
+  <text x="180" y="183" font-family="Arial,sans-serif" font-size="7" fill="#10B981">Ready</text>
+  <text x="42" y="208" font-family="Arial,sans-serif" font-size="8" fill="#64748B">31 pages · 8,210 tokens</text>
+
+  <!-- Doc 3 -->
+  <rect x="28" y="222" width="196" height="50" rx="7" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="28" y="222" width="4" height="50" rx="2" fill="#8B5CF6"/>
+  <text x="42" y="239" font-family="Arial,sans-serif" font-size="10" fill="#F1F5F9">Compliance_Manual.pdf</text>
+  <text x="42" y="253" font-family="Arial,sans-serif" font-size="8" fill="#64748B">5.1 MB · PDF · Indexed</text>
+  <rect x="174" y="231" width="40" height="14" rx="7" fill="#10B981" opacity="0.15"/>
+  <text x="180" y="241" font-family="Arial,sans-serif" font-size="7" fill="#10B981">Ready</text>
+  <text x="42" y="266" font-family="Arial,sans-serif" font-size="8" fill="#64748B">112 pages · 31,800 tokens</text>
+
+  <!-- Upload drop zone -->
+  <rect x="28" y="282" width="196" height="56" rx="8" fill="#050b18" stroke="#1e3a5f" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="126" y="305" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#1D4ED8" opacity="0.5">📎</text>
+  <text x="126" y="322" font-family="Arial,sans-serif" font-size="9" fill="#475569" text-anchor="middle">Drop files or click to upload</text>
+  <text x="126" y="334" font-family="Arial,sans-serif" font-size="8" fill="#334155" text-anchor="middle">PDF, DOCX, XLSX supported</text>
+
+  <!-- Docker badge -->
+  <rect x="28" y="348" width="196" height="44" rx="8" fill="#0d1f3a" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="44" y="366" font-family="Arial,sans-serif" font-size="9" fill="#64748B">🐳 Docker · Isolated Container</text>
+  <text x="44" y="382" font-family="Arial,sans-serif" font-size="8" fill="#475569">Enterprise · Air-gapped · Secure</text>
+
+  <!-- RIGHT: Chat panel -->
+  <rect x="248" y="58" width="536" height="346" rx="10" fill="url(#card5)" stroke="#122040" stroke-width="1"/>
+  <rect x="248" y="58" width="536" height="3" rx="2" fill="url(#ailine)"/>
+
+  <!-- Chat header -->
+  <text x="266" y="82" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Document Chat</text>
+  <text x="266" y="96" font-family="Arial,sans-serif" font-size="9" fill="#475569">Context: Q4_Financial_Report.pdf + 2 more</text>
+  <!-- AI model badge -->
+  <rect x="640" y="66" width="130" height="22" rx="11" fill="#1D4ED8" opacity="0.2" stroke="#1D4ED8" stroke-width="0.5"/>
+  <circle cx="656" cy="77" r="4" fill="#3B82F6"/>
+  <text x="664" y="81" font-family="Arial,sans-serif" font-size="8" fill="#3B82F6">AI · Contextual Mode</text>
+
+  <!-- Chat messages -->
+  <!-- Timestamp -->
+  <text x="480" y="120" font-family="Arial,sans-serif" font-size="8" fill="#334155" text-anchor="middle">Today · 14:32</text>
+
+  <!-- User message 1 -->
+  <rect x="390" y="130" width="374" height="38" rx="10" fill="#1D4ED8" opacity="0.85"/>
+  <rect x="390" y="130" width="374" height="38" rx="10" fill="url(#docgrad)"/>
+  <text x="406" y="147" font-family="Arial,sans-serif" font-size="9.5" fill="#F1F5F9">What was the total revenue in Q4 2024?</text>
+  <text x="406" y="161" font-family="Arial,sans-serif" font-size="8" fill="#93C5FD">Referencing: Q4_Financial_Report.pdf</text>
+
+  <!-- AI response 1 -->
+  <rect x="262" y="176" width="400" height="62" rx="10" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <circle cx="276" cy="190" r="7" fill="#3B82F6" opacity="0.3"/>
+  <text x="276" y="193" font-family="Arial,sans-serif" font-size="8" fill="#3B82F6" text-anchor="middle">AI</text>
+  <text x="292" y="191" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#F1F5F9">Based on page 12 of the Q4 report:</text>
+  <text x="292" y="206" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Total Revenue: ₹ 84.2 Cr  ·  +18.4% YoY</text>
+  <text x="292" y="220" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Net Profit: ₹ 12.8 Cr  ·  Operating Margin: 15.2%</text>
+  <text x="292" y="232" font-family="Arial,sans-serif" font-size="8" fill="#3B82F6">📄 Source: Q4_Financial_Report.pdf, p.12</text>
+
+  <!-- User message 2 -->
+  <rect x="390" y="248" width="374" height="28" rx="10" fill="#1D4ED8" opacity="0.85"/>
+  <text x="406" y="266" font-family="Arial,sans-serif" font-size="9.5" fill="#F1F5F9">Summarise the loan eligibility criteria from the policy doc</text>
+
+  <!-- AI response 2 -->
+  <rect x="262" y="284" width="420" height="82" rx="10" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <circle cx="276" cy="298" r="7" fill="#3B82F6" opacity="0.3"/>
+  <text x="276" y="301" font-family="Arial,sans-serif" font-size="8" fill="#3B82F6" text-anchor="middle">AI</text>
+  <text x="292" y="299" font-family="Arial,sans-serif" font-size="9.5" font-weight="bold" fill="#F1F5F9">From Loan_Policy_2024.docx (Section 3.2):</text>
+  <text x="292" y="314" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">• Min. credit score: 720  ·  Age: 21–60 yrs</text>
+  <text x="292" y="328" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">• Income threshold: ₹5L p.a.  ·  Max tenure: 30 yrs</text>
+  <text x="292" y="342" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">• Debt-to-income ratio must be below 40%</text>
+  <text x="292" y="356" font-family="Arial,sans-serif" font-size="8" fill="#F59E0B">📄 Source: Loan_Policy_2024.docx, pp.18–19</text>
+
+  <!-- Typing indicator -->
+  <rect x="262" y="374" width="80" height="22" rx="11" fill="#0f1d36" stroke="#1e3a5f" stroke-width="1"/>
+  <circle cx="280" cy="385" r="3" fill="#3B82F6" opacity="0.5"/>
+  <circle cx="291" cy="385" r="3" fill="#3B82F6" opacity="0.7"/>
+  <circle cx="302" cy="385" r="3" fill="#3B82F6"/>
+  <text x="315" y="389" font-family="Arial,sans-serif" font-size="8" fill="#475569">AI typing...</text>
+
+  <!-- Input bar -->
+  <rect x="262" y="374" width="420" height="22" rx="11" fill="#050b18" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- override with actual input at bottom -->
+  <rect x="262" y="398" width="520" height="0" fill="none"/>
+
+  <!-- Bottom input area -->
+  <rect x="262" y="370" width="510" height="26" rx="13" fill="#050b18" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="280" y="387" font-family="Arial,sans-serif" font-size="9" fill="#334155">Ask anything about your documents...</text>
+  <rect x="740" y="372" width="48" height="22" rx="11" fill="#1D4ED8" opacity="0.9"/>
+  <text x="764" y="387" font-family="Arial,sans-serif" font-size="11" fill="#fff" text-anchor="middle">➤</text>
+</svg>

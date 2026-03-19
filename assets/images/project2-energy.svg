@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0f2010"/>
+    </linearGradient>
+    <linearGradient id="chartline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10B981"/>
+      <stop offset="100%" style="stop-color:#34D399"/>
+    </linearGradient>
+    <linearGradient id="chartfill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981" stop-opacity="0.3"/>
+      <stop offset="100%" style="stop-color:#10B981" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0EA5E9"/>
+      <stop offset="100%" style="stop-color:#0EA5E9" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="card2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#112211"/>
+      <stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#bg2)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.05" stroke="#10B981" stroke-width="0.5">
+    <line x1="0" y1="60" x2="800" y2="60"/>
+    <line x1="0" y1="120" x2="800" y2="120"/>
+    <line x1="0" y1="180" x2="800" y2="180"/>
+    <line x1="0" y1="240" x2="800" y2="240"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="360" x2="800" y2="360"/>
+    <line x1="100" y1="0" x2="100" y2="420"/>
+    <line x1="200" y1="0" x2="200" y2="420"/>
+    <line x1="300" y1="0" x2="300" y2="420"/>
+    <line x1="400" y1="0" x2="400" y2="420"/>
+    <line x1="500" y1="0" x2="500" y2="420"/>
+    <line x1="600" y1="0" x2="600" y2="420"/>
+    <line x1="700" y1="0" x2="700" y2="420"/>
+  </g>
+
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="44" fill="#071014"/>
+  <rect x="0" y="42" width="800" height="2" fill="url(#chartline)" opacity="0.6"/>
+  <rect x="16" y="12" width="18" height="18" rx="4" fill="#10B981" opacity="0.2"/>
+  <text x="22" y="25" font-family="Arial,sans-serif" font-size="12" fill="#10B981">⚡</text>
+  <text x="42" y="27" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#F1F5F9">EnergyWatch</text>
+  <text x="200" y="27" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Live Monitor</text>
+  <text x="310" y="27" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Cost Centers</text>
+  <text x="420" y="27" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Meters</text>
+  <text x="500" y="27" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Alerts</text>
+  <!-- Live badge -->
+  <rect x="690" y="10" width="48" height="22" rx="11" fill="#10B981" opacity="0.15"/>
+  <circle cx="703" cy="21" r="3" fill="#10B981"/>
+  <text x="710" y="25" font-family="Arial,sans-serif" font-size="9" fill="#10B981" font-weight="bold">LIVE</text>
+  <!-- Clock -->
+  <text x="748" y="27" font-family="monospace" font-size="9" fill="#64748B">14:32:07</text>
+
+  <!-- Page title -->
+  <text x="20" y="70" font-family="Georgia,serif" font-size="16" font-weight="bold" fill="#F1F5F9">Energy Consumption Dashboard</text>
+  <text x="20" y="86" font-family="Arial,sans-serif" font-size="10" fill="#64748B">50+ IoT Sensors · 12 Cost Centers · Real-time Updates</text>
+
+  <!-- KPI cards -->
+  <!-- Total kWh -->
+  <rect x="20" y="100" width="148" height="68" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <rect x="20" y="100" width="148" height="3" rx="2" fill="#10B981"/>
+  <text x="36" y="122" font-family="Arial,sans-serif" font-size="9" fill="#64748B">TOTAL kWh (Today)</text>
+  <text x="36" y="148" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#10B981">48,321</text>
+  <text x="114" y="148" font-family="Arial,sans-serif" font-size="9" fill="#64748B">kWh</text>
+
+  <!-- Peak Demand -->
+  <rect x="178" y="100" width="148" height="68" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <rect x="178" y="100" width="148" height="3" rx="2" fill="#F59E0B"/>
+  <text x="194" y="122" font-family="Arial,sans-serif" font-size="9" fill="#64748B">PEAK DEMAND</text>
+  <text x="194" y="148" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#F59E0B">342</text>
+  <text x="236" y="148" font-family="Arial,sans-serif" font-size="9" fill="#64748B">kW</text>
+
+  <!-- Cost -->
+  <rect x="336" y="100" width="148" height="68" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <rect x="336" y="100" width="148" height="3" rx="2" fill="#0EA5E9"/>
+  <text x="352" y="122" font-family="Arial,sans-serif" font-size="9" fill="#64748B">ESTIMATED COST</text>
+  <text x="352" y="148" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#0EA5E9">₹28,940</text>
+
+  <!-- Active Sensors -->
+  <rect x="494" y="100" width="148" height="68" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <rect x="494" y="100" width="148" height="3" rx="2" fill="#F472B6"/>
+  <text x="510" y="122" font-family="Arial,sans-serif" font-size="9" fill="#64748B">ACTIVE SENSORS</text>
+  <text x="510" y="148" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#F1F5F9">52</text>
+  <text x="538" y="148" font-family="Arial,sans-serif" font-size="9" fill="#10B981">/ 55 online</text>
+
+  <!-- Savings -->
+  <rect x="652" y="100" width="128" height="68" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <rect x="652" y="100" width="128" height="3" rx="2" fill="#10B981"/>
+  <text x="668" y="122" font-family="Arial,sans-serif" font-size="9" fill="#64748B">SAVINGS THIS MONTH</text>
+  <text x="668" y="148" font-family="Georgia,serif" font-size="22" font-weight="bold" fill="#10B981">8.4%</text>
+  <text x="707" y="148" font-family="Arial,sans-serif" font-size="9" fill="#10B981">↓</text>
+
+  <!-- Main chart -->
+  <rect x="20" y="182" width="490" height="210" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <text x="36" y="204" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Hourly Consumption (kWh)</text>
+  <text x="400" y="204" font-family="Arial,sans-serif" font-size="9" fill="#10B981">● Live</text>
+
+  <!-- Y axis labels -->
+  <text x="28" y="228" font-family="monospace" font-size="8" fill="#475569">600</text>
+  <text x="28" y="258" font-family="monospace" font-size="8" fill="#475569">450</text>
+  <text x="28" y="288" font-family="monospace" font-size="8" fill="#475569">300</text>
+  <text x="28" y="318" font-family="monospace" font-size="8" fill="#475569">150</text>
+  <text x="35" y="348" font-family="monospace" font-size="8" fill="#475569">0</text>
+
+  <!-- Grid lines for chart -->
+  <g stroke="#1a3320" stroke-width="1">
+    <line x1="52" y1="222" x2="498" y2="222"/>
+    <line x1="52" y1="252" x2="498" y2="252"/>
+    <line x1="52" y1="282" x2="498" y2="282"/>
+    <line x1="52" y1="312" x2="498" y2="312"/>
+    <line x1="52" y1="342" x2="498" y2="342"/>
+  </g>
+
+  <!-- Area fill -->
+  <path d="M52,312 L90,298 L128,275 L166,260 L204,242 L242,255 L280,238 L318,230 L356,245 L394,252 L432,235 L470,242 L498,238 L498,342 L52,342 Z" fill="url(#chartfill)"/>
+
+  <!-- Line chart -->
+  <polyline points="52,312 90,298 128,275 166,260 204,242 242,255 280,238 318,230 356,245 394,252 432,235 470,242 498,238" fill="none" stroke="url(#chartline)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Data points -->
+  <circle cx="498" cy="238" r="4" fill="#10B981"/>
+  <circle cx="498" cy="238" r="8" fill="#10B981" opacity="0.2"/>
+
+  <!-- X axis labels -->
+  <text x="48" y="358" font-family="monospace" font-size="8" fill="#475569">00h</text>
+  <text x="122" y="358" font-family="monospace" font-size="8" fill="#475569">04h</text>
+  <text x="196" y="358" font-family="monospace" font-size="8" fill="#475569">08h</text>
+  <text x="270" y="358" font-family="monospace" font-size="8" fill="#475569">12h</text>
+  <text x="344" y="358" font-family="monospace" font-size="8" fill="#475569">16h</text>
+  <text x="418" y="358" font-family="monospace" font-size="8" fill="#475569">20h</text>
+  <text x="470" y="358" font-family="monospace" font-size="8" fill="#475569">Now</text>
+
+  <!-- Sensor list panel -->
+  <rect x="520" y="182" width="260" height="210" rx="8" fill="url(#card2)" stroke="#1a3320" stroke-width="1"/>
+  <text x="536" y="204" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Sensor Feed</text>
+
+  <!-- Sensor rows -->
+  <g font-family="Arial,sans-serif" font-size="9">
+    <!-- Headers -->
+    <rect x="520" y="210" width="260" height="20" fill="#071014" rx="0"/>
+    <text x="536" y="224" fill="#64748B">SENSOR</text>
+    <text x="648" y="224" fill="#64748B">VALUE</text>
+    <text x="710" y="224" fill="#64748B">STATUS</text>
+
+    <!-- Row 1 -->
+    <text x="536" y="244" fill="#94A3B8">MT-001 · Floor 1</text>
+    <text x="648" y="244" fill="#10B981">142 kWh</text>
+    <circle cx="712" cy="240" r="4" fill="#10B981"/>
+    <!-- Row 2 -->
+    <text x="536" y="262" fill="#94A3B8">MT-002 · HVAC</text>
+    <text x="648" y="262" fill="#F59E0B">289 kWh</text>
+    <circle cx="712" cy="258" r="4" fill="#F59E0B"/>
+    <!-- Row 3 -->
+    <text x="536" y="280" fill="#94A3B8">MT-003 · Server Rm</text>
+    <text x="648" y="280" fill="#10B981">98 kWh</text>
+    <circle cx="712" cy="276" r="4" fill="#10B981"/>
+    <!-- Row 4 -->
+    <text x="536" y="298" fill="#94A3B8">MT-004 · Production</text>
+    <text x="648" y="298" fill="#0EA5E9">412 kWh</text>
+    <circle cx="712" cy="294" r="4" fill="#0EA5E9"/>
+    <!-- Row 5 -->
+    <text x="536" y="316" fill="#94A3B8">MT-005 · Lighting</text>
+    <text x="648" y="316" fill="#10B981">64 kWh</text>
+    <circle cx="712" cy="312" r="4" fill="#10B981"/>
+    <!-- Row 6 -->
+    <text x="536" y="334" fill="#94A3B8">MT-006 · Compressor</text>
+    <text x="648" y="334" fill="#F472B6">378 kWh</text>
+    <circle cx="712" cy="330" r="4" fill="#F472B6"/>
+    <!-- Row 7 -->
+    <text x="536" y="352" fill="#94A3B8">MT-007 · Boiler</text>
+    <text x="648" y="352" fill="#10B981">201 kWh</text>
+    <circle cx="712" cy="348" r="4" fill="#10B981"/>
+    <!-- Row 8 offline -->
+    <text x="536" y="370" fill="#475569">MT-008 · Solar</text>
+    <text x="648" y="370" fill="#475569">--</text>
+    <circle cx="712" cy="366" r="4" fill="#475569"/>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="20" y="400" width="760" height="16" rx="4" fill="#071014"/>
+  <text x="30" y="412" font-family="monospace" font-size="8" fill="#475569">Virtual scrolling enabled · Debounced API · Next refresh: 00:28</text>
+</svg>

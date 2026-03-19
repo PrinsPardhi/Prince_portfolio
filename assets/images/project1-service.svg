@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F1729"/>
+      <stop offset="100%" style="stop-color:#1a2744"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0EA5E9"/>
+      <stop offset="100%" style="stop-color:#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="card1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e2d47"/>
+      <stop offset="100%" style="stop-color:#162035"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#bg1)"/>
+
+  <!-- Grid lines -->
+  <g opacity="0.07" stroke="#38BDF8" stroke-width="0.5">
+    <line x1="0" y1="70" x2="800" y2="70"/>
+    <line x1="0" y1="140" x2="800" y2="140"/>
+    <line x1="0" y1="210" x2="800" y2="210"/>
+    <line x1="0" y1="280" x2="800" y2="280"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="160" y1="0" x2="160" y2="420"/>
+    <line x1="320" y1="0" x2="320" y2="420"/>
+    <line x1="480" y1="0" x2="480" y2="420"/>
+    <line x1="640" y1="0" x2="640" y2="420"/>
+  </g>
+
+  <!-- Top nav bar -->
+  <rect x="0" y="0" width="800" height="48" fill="#111e33" rx="0"/>
+  <rect x="0" y="46" width="800" height="2" fill="url(#accent1)" opacity="0.7"/>
+  <!-- Nav logo area -->
+  <rect x="20" y="14" width="20" height="20" rx="5" fill="#0EA5E9"/>
+  <text x="48" y="28" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#F1F5F9">ServicePro</text>
+  <!-- Nav items -->
+  <text x="200" y="28" font-family="Arial,sans-serif" font-size="11" fill="#94A3B8">Dashboard</text>
+  <rect x="196" y="43" width="52" height="2" fill="#0EA5E9" rx="1"/>
+  <text x="270" y="28" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Tickets</text>
+  <text x="330" y="28" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Engineers</text>
+  <text x="400" y="28" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Reports</text>
+  <!-- Avatar -->
+  <circle cx="760" cy="24" r="14" fill="#0EA5E9" opacity="0.3"/>
+  <text x="754" y="28" font-family="Arial,sans-serif" font-size="11" fill="#0EA5E9" font-weight="bold">PP</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="180" height="372" fill="#0d1828"/>
+  <rect x="178" y="48" width="1" height="372" fill="#1e2d47"/>
+
+  <!-- Sidebar items -->
+  <rect x="10" y="68" width="160" height="32" rx="6" fill="#0EA5E9" opacity="0.15"/>
+  <rect x="18" y="80" width="4" height="8" rx="2" fill="#0EA5E9"/>
+  <text x="32" y="88" font-family="Arial,sans-serif" font-size="11" fill="#0EA5E9" font-weight="bold">Overview</text>
+
+  <rect x="18" y="118" width="4" height="8" rx="2" fill="#475569"/>
+  <text x="32" y="126" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Service Tickets</text>
+  <rect x="18" y="148" width="4" height="8" rx="2" fill="#475569"/>
+  <text x="32" y="156" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Field Engineers</text>
+  <rect x="18" y="178" width="4" height="8" rx="2" fill="#475569"/>
+  <text x="32" y="186" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Schedule</text>
+  <rect x="18" y="208" width="4" height="8" rx="2" fill="#475569"/>
+  <text x="32" y="216" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Reports</text>
+  <rect x="18" y="238" width="4" height="8" rx="2" fill="#475569"/>
+  <text x="32" y="246" font-family="Arial,sans-serif" font-size="11" fill="#64748B">Settings</text>
+
+  <!-- LIVE badge -->
+  <rect x="20" y="375" width="50" height="18" rx="9" fill="#10B981" opacity="0.15"/>
+  <circle cx="31" cy="384" r="3" fill="#10B981"/>
+  <text x="38" y="388" font-family="Arial,sans-serif" font-size="9" fill="#10B981">LIVE</text>
+
+  <!-- Main content area -->
+  <!-- Page title -->
+  <text x="200" y="80" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#F1F5F9">Service Dashboard</text>
+  <text x="200" y="96" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Wednesday, 19 March 2025 · Real-time updates</text>
+
+  <!-- Stat cards row -->
+  <!-- Card 1 -->
+  <rect x="200" y="110" width="130" height="72" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="200" y="110" width="130" height="3" rx="2" fill="#0EA5E9"/>
+  <text x="216" y="133" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Open Tickets</text>
+  <text x="216" y="158" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#F1F5F9">142</text>
+  <text x="260" y="158" font-family="Arial,sans-serif" font-size="9" fill="#10B981">+12%</text>
+
+  <!-- Card 2 -->
+  <rect x="340" y="110" width="130" height="72" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="340" y="110" width="130" height="3" rx="2" fill="#F472B6"/>
+  <text x="356" y="133" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Engineers Active</text>
+  <text x="356" y="158" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#F1F5F9">28</text>
+  <text x="393" y="158" font-family="Arial,sans-serif" font-size="9" fill="#10B981">Online</text>
+
+  <!-- Card 3 -->
+  <rect x="480" y="110" width="130" height="72" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="480" y="110" width="130" height="3" rx="2" fill="#10B981"/>
+  <text x="496" y="133" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Resolved Today</text>
+  <text x="496" y="158" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#F1F5F9">37</text>
+  <text x="535" y="158" font-family="Arial,sans-serif" font-size="9" fill="#10B981">↑ 8</text>
+
+  <!-- Card 4 -->
+  <rect x="620" y="110" width="150" height="72" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <rect x="620" y="110" width="150" height="3" rx="2" fill="#F59E0B"/>
+  <text x="636" y="133" font-family="Arial,sans-serif" font-size="10" fill="#64748B">Avg Resolution</text>
+  <text x="636" y="158" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#F1F5F9">4.2h</text>
+
+  <!-- Ticket Table -->
+  <rect x="200" y="196" width="380" height="190" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="216" y="218" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Recent Tickets</text>
+  <!-- Table header -->
+  <rect x="200" y="226" width="380" height="24" fill="#0d1828" rx="0"/>
+  <text x="216" y="242" font-family="Arial,sans-serif" font-size="9" fill="#64748B">TICKET ID</text>
+  <text x="296" y="242" font-family="Arial,sans-serif" font-size="9" fill="#64748B">ISSUE</text>
+  <text x="430" y="242" font-family="Arial,sans-serif" font-size="9" fill="#64748B">ENGINEER</text>
+  <text x="530" y="242" font-family="Arial,sans-serif" font-size="9" fill="#64748B">STATUS</text>
+  <!-- Rows -->
+  <line x1="200" y1="252" x2="580" y2="252" stroke="#1e2d47" stroke-width="1"/>
+  <text x="216" y="267" font-family="monospace" font-size="9" fill="#0EA5E9">#TKT-1042</text>
+  <text x="296" y="267" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">AC Unit Repair</text>
+  <text x="430" y="267" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Rahul M.</text>
+  <rect x="530" y="258" width="40" height="14" rx="7" fill="#10B981" opacity="0.15"/>
+  <text x="538" y="268" font-family="Arial,sans-serif" font-size="8" fill="#10B981">Done</text>
+
+  <line x1="200" y1="278" x2="580" y2="278" stroke="#1e2d47" stroke-width="1"/>
+  <text x="216" y="293" font-family="monospace" font-size="9" fill="#0EA5E9">#TKT-1043</text>
+  <text x="296" y="293" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Pump Installation</text>
+  <text x="430" y="293" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Amit K.</text>
+  <rect x="527" y="284" width="48" height="14" rx="7" fill="#F59E0B" opacity="0.15"/>
+  <text x="533" y="294" font-family="Arial,sans-serif" font-size="8" fill="#F59E0B">In-Prog</text>
+
+  <line x1="200" y1="304" x2="580" y2="304" stroke="#1e2d47" stroke-width="1"/>
+  <text x="216" y="319" font-family="monospace" font-size="9" fill="#0EA5E9">#TKT-1044</text>
+  <text x="296" y="319" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Electrical Fault</text>
+  <text x="430" y="319" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Priya S.</text>
+  <rect x="530" y="310" width="40" height="14" rx="7" fill="#0EA5E9" opacity="0.15"/>
+  <text x="537" y="320" font-family="Arial,sans-serif" font-size="8" fill="#0EA5E9">Open</text>
+
+  <line x1="200" y1="330" x2="580" y2="330" stroke="#1e2d47" stroke-width="1"/>
+  <text x="216" y="345" font-family="monospace" font-size="9" fill="#0EA5E9">#TKT-1045</text>
+  <text x="296" y="345" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Motor Servicing</text>
+  <text x="430" y="345" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Sanjay P.</text>
+  <rect x="527" y="336" width="50" height="14" rx="7" fill="#8B5CF6" opacity="0.15"/>
+  <text x="531" y="346" font-family="Arial,sans-serif" font-size="8" fill="#8B5CF6">Scheduled</text>
+
+  <line x1="200" y1="356" x2="580" y2="356" stroke="#1e2d47" stroke-width="1"/>
+  <text x="216" y="371" font-family="monospace" font-size="9" fill="#0EA5E9">#TKT-1046</text>
+  <text x="296" y="371" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Valve Replacement</text>
+  <text x="430" y="371" font-family="Arial,sans-serif" font-size="9" fill="#94A3B8">Neha R.</text>
+  <rect x="530" y="362" width="40" height="14" rx="7" fill="#10B981" opacity="0.15"/>
+  <text x="538" y="372" font-family="Arial,sans-serif" font-size="8" fill="#10B981">Done</text>
+
+  <!-- Map / Engineer location panel -->
+  <rect x="595" y="196" width="175" height="190" rx="8" fill="url(#card1)" stroke="#1e3a5f" stroke-width="1"/>
+  <text x="611" y="218" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="#F1F5F9">Engineer Map</text>
+  <!-- Fake map -->
+  <rect x="603" y="224" width="159" height="120" rx="4" fill="#0d1828"/>
+  <line x1="603" y1="254" x2="762" y2="254" stroke="#1e3a5f" stroke-width="1"/>
+  <line x1="603" y1="284" x2="762" y2="284" stroke="#1e3a5f" stroke-width="1"/>
+  <line x1="633" y1="224" x2="633" y2="344" stroke="#1e3a5f" stroke-width="1"/>
+  <line x1="703" y1="224" x2="703" y2="344" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- Engineer dots -->
+  <circle cx="645" cy="242" r="5" fill="#10B981"/>
+  <circle cx="645" cy="242" r="9" fill="#10B981" opacity="0.2"/>
+  <circle cx="718" cy="270" r="5" fill="#0EA5E9"/>
+  <circle cx="718" cy="270" r="9" fill="#0EA5E9" opacity="0.2"/>
+  <circle cx="655" cy="305" r="5" fill="#F472B6"/>
+  <circle cx="655" cy="305" r="9" fill="#F472B6" opacity="0.2"/>
+  <circle cx="740" cy="240" r="5" fill="#F59E0B"/>
+  <!-- WebSocket indicator -->
+  <rect x="603" y="354" width="159" height="24" rx="4" fill="#0d1828"/>
+  <circle cx="618" cy="366" r="4" fill="#10B981"/>
+  <text x="628" y="369" font-family="Arial,sans-serif" font-size="9" fill="#10B981">WebSocket Active · 4 online</text>
+</svg>
